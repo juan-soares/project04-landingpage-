@@ -31,7 +31,8 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. C
 - Variaveis CSS,
 - Classes CSS utilitárias,
 - Unidade de medida rem;
-- Layout responsivo.
+- Adereços através de pseudo-classes;
+- Layout responsivo (Mobile First).
 
 ## How to use
 

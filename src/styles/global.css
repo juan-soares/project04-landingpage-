@@ -14,6 +14,36 @@ body {
   padding: 0 1rem;
 }
 
+.button {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  color: var(--color-black);
+  display: block;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  max-width: 14rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.button:hover {
+  transform: translateX(4px);
+}
+
+.logo {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
+.logo--header {
+  margin: 1rem auto;
+}
+
 .mt-1 {
   margin-top: 1rem;
 }
