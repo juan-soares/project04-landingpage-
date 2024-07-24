@@ -28,6 +28,9 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. C
 ## Features
 
 - Metodologia BEM,
+- Variaveis CSS,
+- Classes CSS utilitárias,
+- Unidade de medida rem;
 - Layout responsivo.
 
 ## How to use
