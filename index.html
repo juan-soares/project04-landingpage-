@@ -6,7 +6,7 @@
     <meta name="author" content="Juan Carlos" />
     <meta
       name="description"
-      content="Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. Consiste em uma landing page de uma universidade de tecnologia fictícia, contendo navegação interna."
+      content="Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. Consiste em uma landing page de uma universidade de tecnologia fictícia, contendo navegação interna e estilização detalhada."
     />
     <meta
       name="keywords"
@@ -18,32 +18,39 @@
       href="./public/assets/favicon/favicon.png"
       type="image/x-icon"
     />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" >
-    
-  <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
-    <link rel="stylesheet" href="./src/styles/global.css"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+    />
+
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/global.css" />
     <link rel="stylesheet" href="./src/styles/responsive.css" />
 
     <title>Web University</title>
   </head>
+
   <body>
     <header class="header__container">
       <img
-      class="logo logo--header"
+        class="logo logo--header"
         src="./public/assets/images/logo.png"
         alt="Logotipo da Web University."
       />
       <nav class="header__navbar">
-          <a class="header__link" href="#home">Início</a>
-          <a class="header__link" href="#cursos">Cursos</a>
-          <a class="header__link" href="#sobre">Sobre</a>
-          <a class="header__link" href="https://wa.me/5511900000000?text=Ol%C3%A1!%20Este%20%C3%A9%20apenas%20um%20prot%C3%B3tipo%2C%20mas%20obrigado%20pelo%20interesse." target="_blank">Contato</a>
-        </ul>
+        <a class="header__link" href="#home">Início</a>
+        <a class="header__link" href="#cursos">Cursos</a>
+        <a class="header__link" href="#sobre">Sobre</a>
+        <a
+          class="header__link"
+          href="https://wa.me/5511900000000?text=Ol%C3%A1!%20Este%20%C3%A9%20apenas%20um%20prot%C3%B3tipo%2C%20mas%20obrigado%20pelo%20interesse."
+          target="_blank"
+          >Contato</a
+        >
       </nav>
       <a href="#inscricao" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
     </header>
@@ -51,27 +58,40 @@
     <main>
       <section id="home" class="section-institutional flex-reverse">
         <img
-        class="section-institutional__banner"
+          class="section-institutional__banner"
           src="./public/assets/images/banner-promotional.png"
           alt="Banner promocional da Web University."
         />
         <div>
-          <h1 class="section-institutional__slogan mt-2">Crie algo <strong class="text-primary">impactante</strong> com Front-end.</h1>
+          <h1 class="section-institutional__slogan mt-2">
+            Crie algo <strong class="text-primary">impactante</strong> com
+            Front-end.
+          </h1>
           <p class="section-institutional__description mt-2 mb-2">
-            O futuro da tecnologia começa na ponta dos seus dedos! Especializada na formação em front-end, nossa instituição oferece um ambiente dinâmico, palco para a criatividade e a precisão técnica.
+            O futuro da tecnologia começa na ponta dos seus dedos! Especializada
+            na formação em front-end, nossa instituição oferece um ambiente
+            dinâmico, palco para a criatividade e a precisão técnica.
           </p>
           <a href="#inscricao" class="button">Comece agora</a>
         </div>
       </section>
       <section class="section-courses">
-        <div  id="cursos" class="section-courses__cards">
+        <div id="cursos" class="section-courses__cards">
           <article class="section-courses__card">
-            <img src="./public/assets/images/icon-html.svg" alt="Ícone ilustrativo do curso de HTML." />
+            <img
+              src="./public/assets/images/icon-html.svg"
+              alt="Ícone ilustrativo do curso de HTML."
+            />
             <h3 class="section-courses__title">Conceitos Básicos</h3>
             <p>
-              Prepare-se para criar websites responsivos e atrativos, enquanto desenvolve habilidades fundamentais para uma carreira sólida na área de tecnologia.
+              Prepare-se para criar websites responsivos e atrativos, enquanto
+              desenvolve habilidades fundamentais para uma carreira sólida na
+              área de tecnologia.
             </p>
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+              target="_blank"
+            >
               <img
                 src="./public/assets/images/icon-arrow-right.svg"
                 alt="Ir para a página do curso."
@@ -79,10 +99,14 @@
             </a>
           </article>
           <article class="section-courses__card">
-            <img src="./public/assets/images/icon-angular.svg" alt="Ícone ilustrativo do curso de Angular." />
+            <img
+              src="./public/assets/images/icon-angular.svg"
+              alt="Ícone ilustrativo do curso de Angular."
+            />
             <h3 class="section-courses__title">Angular</h3>
             <p>
-              Aprofunde seus conhecimentos em Angular e domine conceitos como componentização, roteamento e integração com serviços externos. 
+              Aprofunde seus conhecimentos em Angular e domine conceitos como
+              componentização, roteamento e integração com serviços externos.
             </p>
             <a href="https://angular.dev/" target="_blank">
               <img
@@ -92,10 +116,14 @@
             </a>
           </article>
           <article class="section-courses__card">
-            <img src="./public/assets/images/icon-react.svg" alt="Ícone ilustrativo do curso de React." />
+            <img
+              src="./public/assets/images/icon-react.svg"
+              alt="Ícone ilustrativo do curso de React."
+            />
             <h3 class="section-courses__title">React</h3>
             <p>
-              Mergulhe em React explore conceitos como state management, componentização avançada e interação dinâmica.
+              Mergulhe em React explore conceitos como state management,
+              componentização avançada e interação dinâmica.
             </p>
             <a href="https://react.dev/" target="_blank">
               <img
@@ -105,10 +133,14 @@
             </a>
           </article>
           <article class="section-courses__card">
-            <img src="./public/assets/images/icon-vue.svg" alt="Ícone ilustrativo do curso de Vue." />
+            <img
+              src="./public/assets/images/icon-vue.svg"
+              alt="Ícone ilustrativo do curso de Vue."
+            />
             <h3 class="section-courses__title">Vue</h3>
             <p>
-              Descubra as poderosas vantagens do Vue e construa interfaces web dinâmicas e modernas com facilidade.
+              Descubra as poderosas vantagens do Vue e construa interfaces web
+              dinâmicas e modernas com facilidade.
             </p>
             <a href="https://vuejs.org/" target="_blank">
               <img
@@ -118,21 +150,21 @@
             </a>
           </article>
         </div>
-        <h2 class="section-courses__slogan text-center">E <strong class="text-primary">vários</strong> outros!</h2>
+        <h2 class="section-courses__slogan text-center">
+          E <strong class="text-primary">vários</strong> outros!
+        </h2>
         <a class="button mt-2 mx-auto" href="#inscricao">Quero conhecer</a>
       </section>
     </main>
     <footer class="footer__container">
       <div id="sobre" class="footer__about mb-2">
         <img
-        class="logo mb-1"
+          class="logo mb-1"
           src="./public/assets/images/logo.png"
           alt="Logotipo da Logotipo da Web University."
         />
         <p>Web University Ltda.</p>
-        <p>
-          Av. das Tecnologias, nº 123.
-        </p>
+        <p>Av. das Tecnologias, nº 123.</p>
         <p>CEP: 00000-000</p>
         <p>São Paulo - SP</p>
       </div>
@@ -140,14 +172,23 @@
         <a class="footer__link" href="#home">Início</a>
         <a class="footer__link" href="#cursos">Cursos</a>
         <a class="footer__link" href="#sobre">Sobre</a>
-        <a class="footer__link" href="https://wa.me/5511900000000?text=Ol%C3%A1!%20Este%20%C3%A9%20apenas%20um%20prot%C3%B3tipo%2C%20mas%20obrigado%20pelo%20interesse." target="_blank">Contato</a>
+        <a
+          class="footer__link"
+          href="https://wa.me/5511900000000?text=Ol%C3%A1!%20Este%20%C3%A9%20apenas%20um%20prot%C3%B3tipo%2C%20mas%20obrigado%20pelo%20interesse."
+          target="_blank"
+          >Contato</a
+        >
       </nav>
       <form id="inscricao" class="footer__newsletter">
         <label for="email">Receba nossas ofertas.</label>
-        <input type="email" id="email"  name="email" placeholder="Digite seu email."/>
-      <button class="button mb-2">Inscrever</button>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu email."
+        />
+        <button class="button mb-2">Inscrever</button>
       </form>
-     
     </footer>
   </body>
 </html>
