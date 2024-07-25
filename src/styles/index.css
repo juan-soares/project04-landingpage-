@@ -2,7 +2,6 @@
 .section-institutional,
 .section-courses,
 .footer__container {
-  border-color: var();
   border-color: var(--color-black);
   border-style: solid;
   border-width: 0 1px 1px 1px;
@@ -25,6 +24,13 @@
   font-size: 1.25rem;
   padding: 0.5rem;
   text-decoration: none;
+}
+
+.header__link:hover,
+.footer__link:hover {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
 }
 
 .section-institutional {
@@ -95,12 +101,16 @@
   background-color: var(--color-primary);
   box-shadow: 4px 4px 0 var(--color-black);
   max-width: 17rem;
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 1rem 0 2rem;
 }
 
 .section-courses__card:nth-child(2n) {
   align-self: end;
   background-color: var(--color-secondary);
+}
+
+.section-courses__card img {
+  width: 40px;
 }
 
 .section-courses__title {
