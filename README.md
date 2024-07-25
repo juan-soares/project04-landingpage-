@@ -15,7 +15,7 @@
 
 ## Description
 
-Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. Consiste em uma Landing Page de uma universidade de tecnologia fictícia, contendo ..., que ..., e ..., que ....
+Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. Consiste em uma Landing Page de uma universidade de tecnologia fictícia, contendo navegação interna que, ao clicar, leva o usuário até a seção respectiva, e técnicas mais aprofundadas de CSS, como bordas laterais, adereços com pseudo-classes e o conceito mobile frist.
 
 ## Demo
 
@@ -28,6 +28,7 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. C
 ## Features
 
 - Metodologia BEM,
+- Navegação interna através de ID,
 - Variaveis CSS,
 - Classes CSS utilitárias,
 - Unidade de medida rem;
