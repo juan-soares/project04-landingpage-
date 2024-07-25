@@ -1,0 +1,38 @@
+@media screen and (min-width: 640px) {
+  .header__navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .section-courses__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-courses__card:nth-child(2n) {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo--header,
+  .header__navbar,
+  .header__container .button {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}

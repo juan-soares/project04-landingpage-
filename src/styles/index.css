@@ -9,14 +9,10 @@
   padding: 1.25rem;
 }
 
-.header__logo {
-  display: block;
-  margin: 1rem auto;
-}
-
 .header__navbar {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 1rem auto 0;
 }
 
 .header__navbar a:nth-child(2n-1) {
@@ -32,14 +28,16 @@
 }
 
 .section-institutional {
-  padding-right: 0;
   padding-bottom: 16rem;
 }
 
 .section-institutional__banner {
   display: block;
-  margin: 1.25rem 0 0 auto;
-  max-width: 100%;
+  margin-top: 1.25rem;
+  height: auto;
+  max-height: 450px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .section-institutional__slogan {

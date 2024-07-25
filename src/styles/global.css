@@ -14,6 +14,13 @@ body {
   padding: 0 1rem;
 }
 
+header,
+main,
+footer {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
 .button {
   background-color: var(--color-primary);
   border: 2px solid var(--color-black);
@@ -32,6 +39,10 @@ body {
 
 .button:hover {
   transform: translateX(4px);
+}
+
+.flex-reverse {
+  display: block;
 }
 
 .logo {
