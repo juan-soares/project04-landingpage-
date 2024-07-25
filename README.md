@@ -28,10 +28,10 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. C
 ## Features
 
 - Metodologia BEM,
-- Favicon,
-- Navegação interna através de ID,
-- Variaveis CSS,
-- Classes CSS utilitárias,
+- Favicon;
+- Navegação interna através de ID;
+- Variaveis CSS;
+- Classes CSS utilitárias;
 - Unidade de medida rem;
 - Adereços através de pseudo-classes;
 - Layout responsivo (Mobile First).
