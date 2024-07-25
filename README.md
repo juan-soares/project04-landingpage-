@@ -23,11 +23,12 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML e CSS. C
 
 ## Technologies
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60px" height="60px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60px" height="60px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60px" height="60px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60px" height="60px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60px" height="60px"/>
 
 ## Features
 
 - Metodologia BEM,
+- Favicon,
 - Navegação interna através de ID,
 - Variaveis CSS,
 - Classes CSS utilitárias,
